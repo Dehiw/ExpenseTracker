@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">VaultWise
+
+</string>
+    <string-array name="transaction_categories">
+        <item>Food</item>
+        <item>Transport</item>
+        <item>Bills</item>
+        <item>Shopping</item>
+        <item>Other</item>
+    </string-array>
+    <string name="budget_management">Budget Management</string>
+    <string name="set_budget">Set Budget</string>
+    <string name="save_budget">Save Budget</string>
+    <string name="welcome">Welcome to FinTrack</string>
+    <string name="total_budget">Total Budget</string>
+    <string name="spent">Spent</string>
+    <string name="add_transaction">Add Transaction</string>
+    <string name="manage_budget">Manage Budget</string>
+    <string name="backup_amp_restore"><![CDATA[Backup & Restore]]></string>
+    <string name="title">Title</string>
+    <string name="amount">Amount</string>
+    <string name="date">Date</string>
+    <string name="save">Save</string>
+    <string name="recent_transactions">Recent Transactions</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email_label">Username/Email</string>
+    <string name="password_label">Password</string>
+    <string name="email">Enter your email</string>
+    <string name="password">Enter your password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="terms_privacy">Terms | Privacy</string>
+    <string name="get_started">Get Started</string>
+    <string name="next">Next</string>
+    <string name="agree_terms"><![CDATA[I agree to the Terms & Conditions]]></string>
+    <string name="screen2_text">Categorize your expenses, visualize spending trends, and stay in control.</string>
+    <string name="home">Home</string>
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="accent_color">#81C784</color> <!-- Updated to Soft Mint Green -->
+    <color name="blue">#388E3C</color> <!-- Updated to match Primary Green -->
+
+    <!-- Add the new onboarding background color -->
+    <color name="onboarding_background">#D6F6D5</color>
+
+    <color name="income_green">#4CAF50</color>
+    <color name="expense_red">#F44336</color>
+
+    <!-- Primary Color (60%) -->
+    <color name="colorPrimary">#388E3C</color> <!-- Prosperous Green -->
+
+    <!-- Secondary Color (30%) -->
+    <color name="colorSecondary">#AED581</color> <!-- Fresh Lime Green -->
+
+    <!-- Accent Color (10%) -->
+    <color name="colorAccent">#81C784</color> <!-- Soft Mint Accent -->
+
+    <!-- Optional Variants -->
+    <color name="colorPrimaryDark">#2E7031</color> <!-- Deeper Prosperous Green -->
+    <color name="colorSecondaryDark">#91C36C</color> <!-- Deeper Lime Green -->
+    <color name="colorAccentDark">#66BB6A</color> <!-- Deeper Mint -->
+
+    <!-- Background and Surface Colors -->
+    <color name="surfaceColor">#F4FDF4</color> <!-- Gentle Greenish White -->
+
+    <!-- Text Colors -->
+    <color name="textPrimary">#1B3B1A</color> <!-- Dark Forest Green -->
+    <color name="textOnPrimary">#FFFFFF</color> <!-- For text on Green -->
+    <color name="textOnSecondary">#1B3B1A</color> <!-- For text on Light Green -->
+
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FinanceTrackerApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.SplashActivity"
+            android:exported="true"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.UpdateTransactionActivity" />
+        <activity
+            android:name=".ui.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.SignInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.NotificationHelper"
+            android:exported="false" />
+        <activity
+            android:name=".ui.BackupRestoreActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.BudgetManagementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.AddTransactionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.OnboardingScreen3"
+            android:exported="false" />
+        <activity
+            android:name=".ui.OnboardingScreen2"
+            android:exported="false" />
+        <activity
+            android:name=".ui.OnboardingScreen1"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".ui.TransactionsActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>
